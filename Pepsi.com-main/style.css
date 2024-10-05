@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #0025ff;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar ul a {
+    color: white;
+    font-size: 12px;
+
+}
+
+.nav-btn {
+    color: white;
+    background-color: #0025ff;
+    border: 1px solid white;
+    width: 155px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: #0025ff;
+    -webkit-animation-name: tada;
+    animation-name: tada;
+
+}
+
+
+.logo:hover {
+
+    -webkit-animation-name: rotateIn;
+    animation-name: rotateIn;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 0.5s;
+}
+
+
+
+/* 
+@media only screen and (max-width:768px) {
+    .nav-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+
+
+
+} */
